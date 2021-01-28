@@ -4,25 +4,27 @@
     "description": "Vamos testar o quanto você conhece a GoldSystem",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://media.tenor.com/images/a2bb577470185aec5134bec213d5b087/tenor.gif",
+        "title": "A GoldSystem desenvolve softwares para gestão de...",
+        "description": "Esta é fácil!",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Cemitério",
+          "Crematório",
+          "Planos e funerárias",
+          "Todas as alternativas"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
+        "title": "Qual foi o ano de fundação da GoldSystem?",
+        "description": "Hm...essa é difícil",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "2000",
+           "2020",
+           "1997",
+           "1998"
         ]
       }
     ],

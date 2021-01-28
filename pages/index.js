@@ -10,6 +10,8 @@ import QuizBackground from '../scr/components/QuizBackground';
 import Footer from '../scr/components/Footer';
 import GitHubCorner from '../scr/components/GitHubCorner';
 import Input from '../scr/components/Input';
+import Button from '../scr/components/Button';
+import QuizContainer from '../scr/components/QuizContainer';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -17,17 +19,6 @@ import Input from '../scr/components/Input';
 //   background-size: cover;
 //   background-position: center;
 // `;
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
 
 export default function Home() {
   const router = useRouter();
@@ -53,17 +44,14 @@ export default function Home() {
             }}
             >
               <Input
-                // eslint-disable-next-line react/jsx-no-bind
-                onChange={function (infosDoEvento) {
-                  console.log(name);
-                  setName(infosDoEvento.target.value);
-                }}
-                placeholder="Informe seu nome"
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Diz ai seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
