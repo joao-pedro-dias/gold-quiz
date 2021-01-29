@@ -7,7 +7,7 @@
         "image": "https://media.tenor.com/images/a2bb577470185aec5134bec213d5b087/tenor.gif",
         "title": "A GoldSystem desenvolve softwares para gestão de...",
         "description": "Esta é fácil!",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
           "Cemitério",
           "Crematório",
@@ -19,12 +19,24 @@
         "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
         "title": "Qual foi o ano de fundação da GoldSystem?",
         "description": "Hm...essa é difícil",
-        "answer": 0,
+        "answer": 2,
         "alternatives": [
            "2000",
            "2020",
            "1997",
            "1998"
+        ]
+      },
+      {
+        "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
+        "title": "Em qual município está localizada a GoldSystem?",
+        "description": "Eu acho que é...",
+        "answer": 1,
+        "alternatives": [
+           "Catanduva",
+           "São José do Rio Preto",
+           "Maceió",
+           "Curitiba"
         ]
       }
     ],
@@ -35,6 +47,7 @@
       "colors": {
         "primary": "#032a51",
         "secondary": "#fec70a",
+        "ternary": "#223d52",
         "mainBg": "#1C1814",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",

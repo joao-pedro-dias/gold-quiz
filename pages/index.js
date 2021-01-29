@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Head from 'next/head'; // está vindo da pasta node_modules, onde já vem todas as dependências do nextJS. Por isso se chama biblioteca, vem tudo junto
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
@@ -11,7 +11,6 @@ import Footer from '../scr/components/Footer';
 import GitHubCorner from '../scr/components/GitHubCorner';
 import Input from '../scr/components/Input';
 import Button from '../scr/components/Button';
-import QuizContainer from '../scr/components/QuizContainer';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -20,15 +19,25 @@ import QuizContainer from '../scr/components/QuizContainer';
 //   background-position: center;
 // `;
 
+const QuizContainer = styled.div`
+  width: 100%;
+  max-width: 350px;
+  padding-top: 45px;
+  margin: auto 10%;
+  @media screen and (max-width: 500px) {
+    margin: auto;
+    padding: 15px;
+  }
+`;
+
 export default function Home() {
   const router = useRouter();
-  const [name, setName] = React.useState(''); // ou seja, estou falando que o estado inicial do meu input é vazio. E quando altera o estado temos o setName
-  console.log(name, setName);
+  const [name, setName] = React.useState('');
 
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Quiz - GoldSystem</title>
+        <title>{db.title}</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -37,8 +46,9 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
+            <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
-              infosDoEvento.preventDefault(); // retirar o evento padrão desta function
+              infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do react');
             }}
@@ -58,9 +68,8 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
-
-            <p>lorem ipsum dolor sit amet...</p>
+            <h1>Venha conhecer um pouco mais sobre a <a href="https://www.goldsystem.com.br/" target="_blank">GoldSystem</a></h1>
+            <p>Uma empresa com pessoas apaixonadas pelo que fazem, com sede de inovação e, principalmente, muita energia para tal.</p>
           </Widget.Content>
         </Widget>
         <Footer />
