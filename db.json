@@ -1,5 +1,5 @@
 {
-    "bg": "https://media-exp1.licdn.com/dms/image/C4D1BAQF9H-_FKrv0Uw/company-background_10000/0/1556049243456?e=2159024400&v=beta&t=PKyNY1bYKiRZjCG14uQO7timFceS5fGA3sSHIsfAGMI",
+    "bg": "https://www.goldsystem.com.br/wp-content/uploads/2020/01/Prancheta-2.png",
     "title": "Quiz GoldSystem",
     "description": "Vamos testar o quanto você conhece a GoldSystem",
     "questions": [
@@ -41,7 +41,9 @@
       }
     ],
     "external": [
-      ""
+      "https://quiz-react.brenoha.vercel.app/",
+      "https://aluraquiz-rpg.danielmalka.vercel.app/",
+      "https://gotquiz-alura.andysteel.vercel.app/"
     ],
     "theme": {
       "colors": {
