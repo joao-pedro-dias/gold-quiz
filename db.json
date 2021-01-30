@@ -6,7 +6,7 @@
       {
         "image": "https://media.tenor.com/images/a2bb577470185aec5134bec213d5b087/tenor.gif",
         "title": "A GoldSystem desenvolve softwares para gestão de...",
-        "description": "Esta é fácil!",
+        "description": "",
         "answer": 3,
         "alternatives": [
           "Cemitério",
@@ -18,7 +18,7 @@
       {
         "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
         "title": "Qual foi o ano de fundação da GoldSystem?",
-        "description": "Hm...essa é difícil",
+        "description": "",
         "answer": 2,
         "alternatives": [
            "2000",
@@ -30,13 +30,37 @@
       {
         "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
         "title": "Em qual município está localizada a GoldSystem?",
-        "description": "Eu acho que é...",
+        "description": "",
         "answer": 1,
         "alternatives": [
            "Catanduva",
            "São José do Rio Preto",
-           "Maceió",
-           "Curitiba"
+           "Curitiba",
+           "Maceió"
+        ]
+      },
+      {
+        "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
+        "title": "A GoldSystem possui soluções de...",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "SMS",
+           "Power BI",
+           "Pentaho",
+           "Todas as alternativas"
+        ]
+      },
+      {
+        "image": "https://t2.tudocdn.net/243513?w=1200&h=900",
+        "title": "A GoldSystem está presente em mais de...",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "1100 cidades no Brasil",
+           "1200 cidades no Brasil",
+           "1500 cidades no Brasil",
+           "1300 cidades no Brasil"
         ]
       }
     ],

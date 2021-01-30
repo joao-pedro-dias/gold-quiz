@@ -14,29 +14,20 @@ import BackLinkArrow from '../../components/BackLinkArrow';
 import loadingAnimation from './animations/loading.json';
 
 // eslint-disable-next-line react/prop-types
-function ResultWidget({ results }) {
+function ResultWidget({
+  results,
+}) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado:
+        <BackLinkArrow href="/" />
+        Você acertou
+        {' '}
+        {results.filter((x) => x).length}
+        perguntas.
       </Widget.Header>
 
       <Widget.Content>
-        <p>
-          Você acertou
-          {' '}
-          {/* {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            return somatoriaAtual;
-          }, 0)} */}
-          {/* eslint-disable-next-line react/prop-types */}
-          {results.filter((x) => x).length}
-          {' '}
-          perguntas
-        </p>
         <ul>
           {results.map((result, index) => (
             <li key={`result__${index}`}>
