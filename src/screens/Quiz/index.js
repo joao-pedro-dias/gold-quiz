@@ -24,6 +24,7 @@ function ResultWidget({
         Você acertou
         {' '}
         {results.filter((x) => x).length}
+        {' '}
         perguntas.
       </Widget.Header>
 
