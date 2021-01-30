@@ -7,9 +7,9 @@ function Logo() {
   return (
     <Image
       src="/Logo2.png"
-      alt="Pokémon Quiz!"
+      alt="Quiz - GoldSystem"
       width={350}
-      height={164}
+      height={210}
     />
   );
 }

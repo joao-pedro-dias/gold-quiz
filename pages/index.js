@@ -40,7 +40,6 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>
-          AluraQuiz -
           {db.title}
         </title>
       </Head>
@@ -74,7 +73,7 @@ export default function Home() {
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar ${name}`}
+                {`Bora Jogar ${name}?`}
               </Button>
             </form>
           </Widget.Content>
@@ -91,7 +90,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
+            <center><h1>Quizes da galera, clique em um:</h1></center>
 
             <ul>
               {db.external.map((linkExterno) => {
