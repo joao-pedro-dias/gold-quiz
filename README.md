@@ -1,5 +1,5 @@
 <h1 align='center'>
-  Projeto criado durante a "Imersão React.js com Next.js da equipe Alura 🚀
+  Projeto criado durante a "Imersão React.js com Next.js" da equipe Alura 🚀
 </h1>
 
 <p>O objetivo deste projeto é realizar um Quiz sobre qualquer assunto. Sendo assim, criei um Quiz para a galera da empresa.</p>
