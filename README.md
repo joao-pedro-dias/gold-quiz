@@ -4,12 +4,22 @@
 
 <p>O objetivo deste projeto é realizar um Quiz sobre qualquer assunto. Sendo assim, criei um Quiz para a galera da empresa.</p>
 
-<h2>Neste projeto foi usado a seguinte linguagem:</h2>
+<details>
+  <summary>📃 Informações do projeto</summary>
+  
+  
+## Neste projeto foi usado a seguinte linguagem
 - JavaScript
 
-<h2>Bibliotecas:</h2>
+## Bibliotecas
 - React.js
 - Styled-component
 
-<h2>Frameworks</h2>
+## Frameworks
 - Next.js
+
+## Deploy
+- Vercel
+- https://vercel.com/
+
+</details>
